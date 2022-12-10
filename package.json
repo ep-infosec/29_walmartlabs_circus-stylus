@@ -1,0 +1,38 @@
+{
+  "name": "circus-stylus",
+  "version": "1.0.0",
+  "description": "Stylus linker for Circus components",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp"
+  },
+  "authors": [
+    "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walmartlabs/circus-stylus"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "glob": "^4.3.2",
+    "lodash": "^2.4.1",
+    "nib": "^1.0.4",
+    "stylus": "^0.49.3",
+    "stylus-loader": "git+https://github.com/kpdecker/stylus-loader.git",
+    "webpack-core": "^0.4.8"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "circus": "^4.0.0",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.10",
+    "gulp-eslint": "^0.9.0",
+    "gulp-istanbul": "^0.5.0",
+    "gulp-mocha": "^2.0.0",
+    "sinon": "^1.12.2",
+    "temp": "^0.8.1",
+    "webpack": "^1.4.14"
+  }
+}
